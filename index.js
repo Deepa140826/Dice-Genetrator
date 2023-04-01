@@ -4,7 +4,7 @@ randomNumber1=Math.floor(randomNumber1)+1;
 
 var randomImage1="dice" + randomNumber1 + ".png";
 
-var randomImagesource1="images/"+randomImage1;
+var randomImagesource1="/images/"+randomImage1;
 
 var Image1=document.querySelectorAll("img")[0];
 
@@ -16,7 +16,7 @@ randomNumber2=Math.floor(randomNumber2)+1;
 
 var randomImage2="dice" + randomNumber2 +".png";
 
-var randomImagesource2="images/"+randomImage2;
+var randomImagesource2="/images/"+randomImage2;
 
 var Image2=document.querySelectorAll("img")[1];
 
